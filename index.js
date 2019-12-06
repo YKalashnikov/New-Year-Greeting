@@ -37,9 +37,9 @@ motionObj.prototype.render = function (){
     ctx.font="30px Comic Sans MS";
     ctx.strokeText("Shakeh իմ սիրելի",
 
-     canvas.width/2, canvas.height/2.2);
-     ctx.strokeText("From Yuri with Love",
-     canvas.width/2, canvas.height/1.9);
+     canvas.width/2.5, canvas.height/2.2);
+     ctx.strokeText("From Yuri with   💗",
+     canvas.width/1.9, canvas.height/1.9);
     ctx.textAlign = "center";
   ctx.beginPath();
   ctx.shadowBlur = this.r * 3;
