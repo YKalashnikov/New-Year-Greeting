@@ -34,16 +34,16 @@ motionObj.prototype.move = function () {
 };
 
 motionObj.prototype.render = function (){
-    ctx.font="30px Comic Sans MS";
+    ctx.font="30px Comic Sans MS" ;
+    ctx.strokeStyle = "black";
     ctx.strokeText("Shakeh իմ սիրելի",
-
      canvas.width/2.5, canvas.height/2.2);
      ctx.strokeText("From Yuri with   💗",
      canvas.width/1.9, canvas.height/1.9);
     ctx.textAlign = "center";
   ctx.beginPath();
-  ctx.shadowBlur = this.r * 3;
-  ctx.shadowColor = '#ffffff';
+  ctx.shadowBlur = this.r * 0.9;
+  ctx.shadowColor = 'pink';
   ctx.arc(this.x, this.y, this.r, 0, 360 * Math.PI/180, false);
   ctx.fill();
   ctx.closePath();
